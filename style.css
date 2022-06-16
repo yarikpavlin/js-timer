@@ -1,0 +1,62 @@
+/* Chrome, Safari, Edge, Opera
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.input-container {    
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.input-container > input {
+    width: 100px;
+    height: 50px;
+    outline: none;
+    box-sizing: content-box;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.controll-container {
+    margin: 40px;
+}
+
+.controll {
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.count-text {
+    margin: 40px;
+    font-size: 2rem;
+}
